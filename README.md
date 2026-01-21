@@ -15,3 +15,10 @@ We implement a `SparseLinear` layer that learns a weight matrix $W$ and a corres
 $$ M= \mathbb{I}(S>\tau);~~W_{\text{sparse}}=W\otimes M,$$
 
 where $W\otimes M$ represents the Hadamard product, that is, element-wise product between the two linear operators. $M$ is a binary mask and $\tau$ is chosen such that a fixed sparsity ratio is enforced. The sparse layer is embedded inside a simple MLP architecture: `Input → SparseLinear → ReLU → Linear → Output`.
+
+---
+## 🔹 Results
+The project produces the following outputs (not in order of their python code execution):
+- Training loss curve
+- Sparse weight visualization
+- Prediction vs ground truth plots
