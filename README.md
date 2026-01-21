@@ -29,12 +29,6 @@ Install dependencies `pip install -r requirements.txt`
 Model Training `python train.py`
 Mode Eval `python evaluate.py`
 
-Outputs are 
-results/
-├── prediction.png
-├── loss_curve.png
-└── sparse_weights.png
-
 ---
 🔹 Limitations
 It is good to know the limitations of the model and some of them are given as follows: 
