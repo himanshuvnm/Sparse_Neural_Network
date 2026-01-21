@@ -12,7 +12,6 @@ We have $x\in\mathbb{R}^D$ and the target is the synthetic regression function $
 ## 🔹 Method
 We implement a `SparseLinear` layer that learns a weight matrix $W$ and a corresponding importance score matrix $S$. A fixed fraction of connections is pruned using a hard top-k threshold:
 
-
 $$ M = \mathbb{I}\left(\tau<S\right),\quad W_{\text{sparse}} = W \otimes M$$
 
 M=I(S>τ),Wsparse​=W⊙M
