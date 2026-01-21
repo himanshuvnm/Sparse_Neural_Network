@@ -42,4 +42,5 @@ Possible future extensions:
 
 ## 🔹 Author
 Himanshu Singh, PhD
+
 Sparse AI Systems | Scientific Machine Learning | Applied Mathematics 
