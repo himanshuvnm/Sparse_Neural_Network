@@ -22,3 +22,26 @@ The project produces the following outputs (not in order of their python code ex
 - Training loss curve
 - Sparse weight visualization
 - Prediction vs ground truth plots
+
+---
+## 🔹 Quickstart
+Install dependencies `pip install -r requirements.txt`
+Model Training `python train.py`
+Mode Eval `python evaluate.py`
+
+Outputs are 
+results/
+├── prediction.png
+├── loss_curve.png
+└── sparse_weights.png
+
+---
+🔹 Limitations
+It is good to know the limitations of the model and some of them are given as follows: 
+
+We use hard threshold masking, which is non-differentiable. As a result, we get unstable mask learning, grads. might not flow through the pruning decision, and lastly too much of sparsity leads to underfitting. 
+
+Possible future extensions:
+- Gradual pruning schedules
+- Kernel-Structured sparsity (block/channel)
+- Soft masks (sigmoid relaxation)
