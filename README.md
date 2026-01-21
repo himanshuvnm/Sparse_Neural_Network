@@ -39,3 +39,7 @@ Possible future extensions:
 - Gradual pruning schedules
 - Kernel-Structured sparsity (block/channel)
 - Soft masks (sigmoid relaxation)
+
+## 🔹 Author
+Himanshu Singh, PhD
+Sparse AI Systems | Scientific Machine Learning | Applied Mathematics 
