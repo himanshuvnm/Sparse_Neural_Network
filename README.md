@@ -14,4 +14,6 @@ We implement a `SparseLinear` layer that learns a weight matrix $W$ and a corres
 
 $$ M = \mathbb{I}\left(\tau<S\right),\quad W_{\text{sparse}} = W \otimes M$$
 
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+
 M=I(S>τ),Wsparse​=W⊙M
