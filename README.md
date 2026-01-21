@@ -15,4 +15,5 @@ We implement a `SparseLinear` layer that learns a weight matrix $W$ and a corres
 $$
 M = \mathbb{I}\left(\tau<S\right),\quad W_{\text{sparse}} = W \otimes M 
 $$
+
 M=I(S>τ),Wsparse​=W⊙M
