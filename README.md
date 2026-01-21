@@ -12,7 +12,7 @@ We have $x\in\mathbb{R}^D$ and the target is the synthetic regression function $
 ## 🔹 Method
 We implement a `SparseLinear` layer that learns a weight matrix $W$ and a corresponding importance score matrix $S$. A fixed fraction of connections is pruned using a hard top-k threshold:
 
-$$ M = \mathbb{I}\left(\tau<S\right), W_{\text{sparse}} = W  M$$
+$$ M= $$
 
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 
